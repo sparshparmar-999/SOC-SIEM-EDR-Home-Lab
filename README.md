@@ -10,14 +10,16 @@ This project demonstrates the deployment, configuration, and monitoring of an en
 A cloud-native Endpoint Detection and Response (EDR) environment was established to provide continuous monitoring and behavioral analysis.
 
 *Insert your screenshot showing the newly created organization below:*
-![LimaCharlie New Organization Created](<img width="1598" height="862" alt="wazuh new organization" src="https://github.com/user-attachments/assets/a02e081c-83c9-4b0c-bf17-3026f4b8ae83" />
+![LimaCharlie New Organization Created](<img width="1598" height="862" alt="IMG-20261018-WA0012" src="https://github.com/user-attachments/assets/36cc5496-736c-4c08-84f6-bc9781c80bb7" />
+
+
 )
 
 ### 2. Wazuh Cross-Platform Agent Deployment
 The Wazuh agent was deployed alongside LimaCharlie to ensure telemetry co-existence and unified log collection.
 
 *Insert your screenshot showing the agent running under LimaCharlie monitoring:*
-![Wazuh Agent Working on LimaCharlie](<img width="1600" height="820" alt="wazuh-agent first machine live feed" src="https://github.com/user-attachments/assets/51d3f75a-8674-4f06-a485-f86418e89bd8" />
+![Wazuh Agent Working on LimaCharlie](<img width="1600" height="820" alt="IMG-20261018-WA0006~2" src="https://github.com/user-attachments/assets/70cb720b-710f-4b7f-b934-ccdb87ac963a" />
 )
 
 ---
@@ -28,14 +30,15 @@ The Wazuh agent was deployed alongside LimaCharlie to ensure telemetry co-existe
 The centralized Wazuh Manager dashboard provides real-time visibility into the health of the infrastructure, agent connectivity, and security posture alerts.
 
 *Insert your screenshot of the main manager overview:*
-![Wazuh Manager Dashboard](<img width="1593" height="829" alt="wazuh-manager dashboard" src="https://github.com/user-attachments/assets/d3091c8f-20ea-4bbd-8091-57882ee32ae5" />
+![Wazuh Manager Dashboard](<img width="1593" height="829" alt="IMG-20261018-WA0015" src="https://github.com/user-attachments/assets/7a24a8ae-caab-4cf5-be67-4951f2b046f4" />
 )
 
 ### 2. Active Endpoint Verification
 Confirmation of the active telemetry pipeline, proving that the endpoint is successfully checking in and streaming system events.
 
 *Insert your screenshot showing the active agent status:*
-![Agent Working in Wazuh Manager](<img width="1600" height="834" alt="redhatagent-01 active" src="https://github.com/user-attachments/assets/bafcb4d7-4baf-4553-aa79-cfe536a1fa88" />
+![Agent Working in Wazuh Manager](<img width="1600" height="834" alt="IMG-20261018-WA0013" src="https://github.com/user-attachments/assets/75c8b167-1a4f-4788-8613-e997466531e9" />
+
 )
 
 ---
@@ -46,7 +49,8 @@ Confirmation of the active telemetry pipeline, proving that the endpoint is succ
 During active monitoring, a **Rule Level 10 (High Severity)** alert was triggered, catching a failed attempt by a non-privileged user to execute commands via `sudo`.
 
 *Insert your screenshot of the specific rule alert:*
-![Alert of Failed Sudo Attempt Rule Level 10](<img width="1600" height="829" alt="threat hunting alert" src="https://github.com/user-attachments/assets/3a43257a-4168-4fe8-bc4d-90376b888b64" />
+![Alert of Failed Sudo Attempt Rule Level 10](<img width="1600" height="829" alt="IMG-20261018-WA0016" src="https://github.com/user-attachments/assets/55812b99-07a9-4a09-b8ba-5125e3795e2c" />
+
 )
 
 ---
@@ -57,7 +61,8 @@ During active monitoring, a **Rule Level 10 (High Severity)** alert was triggere
 A granular look into the JSON metadata of the alert payload parsed into a readable table structure. This highlights critical fields like `syscheck`, user context, and command targets.
 
 *Insert your screenshot of the structured data table:*
-![Document Details of Alert Table Section](<img width="799" height="764" alt="detail of wazuh-manager" src="https://github.com/user-attachments/assets/0f39759c-3694-487d-85ef-8ae5e9d7815c" />
+![Document Details of Alert Table Section](<img width="799" height="764" alt="IMG-20261018-WA0007" src="https://github.com/user-attachments/assets/a283ea83-3746-4e97-aa0c-cca970d9e0b0" />
+
 )
 
 ### 2. Alert Lifecycle Tree-View
